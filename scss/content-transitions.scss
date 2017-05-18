@@ -7,29 +7,13 @@
 // Variables
 // --------------------------------------------------
 
-$transition-time-short: 250ms !default;
-$transition-time: 300ms !default;
-$transition-time-long: 400ms !default;
+@import "variables";
 
 // --------------------------------------------------
 // Mixins
 // --------------------------------------------------
 
-// Translate Y
-@mixin translateY($y) {
-	-webkit-transform: translateY($y);
-	-ms-transform: translateY($y); // IE9 only
-	-o-transform: translateY($y);
-	transform: translateY($y);
-};
-
-// Translate X
-@mixin translateX($x) {
-	-webkit-transform: translateX($x);
-	-ms-transform: translateX($x); // IE9 only
-	-o-transform: translateX($x);
-	transform: translateX($x);
-};
+@import "mixins";
 
 // --------------------------------------------------
 // Styling

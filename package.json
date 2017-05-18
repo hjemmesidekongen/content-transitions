@@ -1,6 +1,6 @@
 {
   "name": "content-transitions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides beautiful CSS3 transitions for common HTML elements.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
