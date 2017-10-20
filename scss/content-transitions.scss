@@ -19,7 +19,8 @@
 // Styling
 // --------------------------------------------------
 
-a {
+a,
+button {
 	@include transition(all $transition-time ease-in-out);
 }
 
